@@ -1,6 +1,6 @@
 html, body {
-    margin: auto;
-    width: 1000px;
+    margin: 0;
+    width: 100%;
     font-family: Helvetica, sans-serif;
     background-color: #f7f7f7;
 }
@@ -8,7 +8,7 @@ html, body {
 
 #all-content{
     background-color: rgb(255, 255, 255);
-    margin: 0;
+    margin: auto;
     width: 1000px;
     border: 2px;
     border-color: blue;
@@ -52,7 +52,7 @@ a {
     margin-top: 25px;
     margin-left: 20px;
     margin-right: 20px;
-    padding: 2px;
+    padding: 5px;
     border-radius: 15px;
     box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0.2) ;
 }
@@ -136,5 +136,14 @@ nav{
 
 
 footer{
-    background-color: rgb(135, 135, 135);
+    width: 100%;
+    background-color: rgb(49, 49, 49);
+    color: white;
+}
+#copyright-area{
+    margin-top: 25px;
+}
+
+#designer-area{
+    margin-top: 25px;
 }
