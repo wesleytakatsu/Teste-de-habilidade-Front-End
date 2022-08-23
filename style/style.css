@@ -18,6 +18,14 @@ html, body {
     justify-content: center;
 }
 
+/*
+    BASIC LAYOUTS
+*/
+
+.content-corner-borders{
+    border-radius: 15px;
+}
+
 a {
     color: #000;
 }
@@ -36,9 +44,31 @@ a {
     justify-content: space-evenly;
 }
 
-.flex-flex-start{
+.flex-left{
     justify-content: left;
 }
+
+.circle-grey{
+    margin: 8px 8px;
+    border: 10px solid;
+    border-color: rgb(54, 54, 54);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.circle-white{
+    margin: 8px 8px;
+    border: 10px solid;
+    border-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+/*
+    HEADER
+*/
 
 #menu-text{
     display: block;
@@ -55,24 +85,6 @@ a {
     padding: 5px;
     border-radius: 15px;
     box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0.2) ;
-}
-
-#circle-grey{
-    margin: 8px 8px;
-    border: 10px solid;
-    border-color: rgb(54, 54, 54);
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-}
-
-#circle-white{
-    margin: 8px 8px;
-    border: 10px solid;
-    border-color: white;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
 }
 
 #weather-icon{
@@ -130,11 +142,30 @@ nav{
     box-shadow: 0px 3px 0px 0 rgba(0,0,0,.1);
 }
 
+/*
+    MAIN
+*/
+
+#news-top{
+    height: 500px;
+}
+#news-top-slide-div-img{
+    width: 380px;
+    height: 300px;
+  }
+  #news-top-slide-img{
+    margin-top: -15px;
+    width: 380px;
+    height: 300px;
+  }
 
 
 
 
 
+/*
+  FOOTER
+*/
 footer{
     width: 100%;
     background-color: rgb(49, 49, 49);
@@ -147,3 +178,4 @@ footer{
 #designer-area{
     margin-top: 25px;
 }
+

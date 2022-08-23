@@ -9,8 +9,9 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style-menu.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/style-menu.css">
+    <link rel="stylesheet" href="style/style-slider.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Refazendo XD GoLab</title>
@@ -55,7 +56,7 @@
             <div class="flexbox-container-row flex-space-between">
 
                 <!-- MENU HAMBÚRGUER E MENU TEXTO -->
-                <div id="main-menu" class="flexbox-container-row flex-flex-start">
+                <div id="main-menu" class="flexbox-container-row flex-left">
                     <div class="header">
                         <div>
                             <input class="menu-btn" type="checkbox" id="menu-btn" />
@@ -83,7 +84,7 @@
                 </div>
                 
                 <!-- CÍRCULO CENTRAL NO TOPO -->
-                <div id="circle-grey"></div>
+                <div class="circle-grey"></div>
                 <div id="weather-forecast" class="flexbox-container-row">
                     <div id="weather-icon">
                         &#127783;
@@ -178,9 +179,29 @@
 
             <!-- CONTAINER COM TODO O CONTEÚDO CENTRAL DA PÁGINA -->
             <div id="news-top">
-                <div >
-                    <div>
-
+                <div id="slides-container">
+                    <div id="news-top-slide-div-img" class="content-corner-borders">
+                        <img id="news-top-slide-img" class="content-corner-borders" src="media/carnaval.webp" alt="Imagem carnaval">
+                    </div>
+                    <div id="slide-outside">
+                        <div id="slides">
+                            <div class="slider-container">
+                                <div class="slider">
+                                    <div class="slides">
+                                        <div id="slides__1" class="slide">
+                                        <span class="slide__text">1</span>
+                                        </div>
+                                        <div id="slides__2" class="slide">
+                                        <span class="slide__text">2</span>
+                                        </div>
+                                    </div>
+                                    <div class="slider__nav">
+                                        <a class="slider__navlink" href="#slides__1"></a>
+                                        <a class="slider__navlink" href="#slides__2"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -213,7 +234,7 @@
     <footer>
         <div class="flexbox-container-row flex-space-evenly">
             <div id="copyright-area">&copy; Copyright 2008 - 2022 - Empresa de Exemplo S.A.</div>
-            <div id="circle-white"></div>
+            <div class="circle-white"></div>
             <div id="designer-area">Desenvolvedor Front-End: Wesley Sieiro Takatsu de Araujo</div>
         </div>
     </footer>

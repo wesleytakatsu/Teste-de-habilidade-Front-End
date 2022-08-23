@@ -1,0 +1,95 @@
+WESLEY SIEIRO TAKATSU DE ARAUJO
+PROJETO PARA AVALIAÇÃO DE HABILIDADES FRONT-END
+TODO O CONTEÚDO ESTÁ COM ID PARA FÁCIL ALTERAÇÃO POR JAVASCRIPT OU QUALQUER OUTRO MEIO
+AS IMAGENS E DIVs EM SUA MAIOR PARTE FAZ PARTE DE UMA CLASSE QUE INSERE "border-radius: 20px;"
+
+O HEADER É SEPARADO EM 5 PARTES (DIVS)
+1 - main-menu - menu principal botão e nome "MENU"
+2 - search-bar-div - barra de busca
+3 - circle-grey - círculo central
+4 - weather-forecast - previsão do tempo
+5 - profile-div - perfil do usuário
+
+main-menu
+    2  divs (hamburguer menu e texto "MENU")
+        hamburguer menu acompanhando a página para acesso rápido em qualquer área
+        texto menu fixo
+
+search-bar-div
+    simples form para entrada de texto e uma lupa unicode
+
+circle-grey
+    simples div com borda e border-radius 50% clássico
+
+weather-forecast
+    2 divs, uma para o ícone weather-icon e outra para detalhes weather-description
+    weather-icon é um simples ícone unicode
+    weather-description entra os detalhes da previsão do tempo
+        weather-location - local da previsão
+        weather-tempmin e weather-tempmax com cores diferentes
+
+profile-div
+    3 divs (notificações, seta e foto de perfil )
+    a notificação tem um círculo que é uma div que pode ser escondida ou mostrada
+    a seta é um caractere virado em 90º com um link sem decoration que pode conter um menu drop-down
+    a foto de perfil com border-radius: 50%;
+
+
+
+A PARTE CENTRAL É SEPARADA POR 5 BLOCOS (DIVs)
+TODAS EM FLEXBOX COM MEDIDAS PRÉ-DETERMINADAS
+1 - news-top - notícias principais na parte superior
+2 - news-columns - segundo bloco de notícias secundárias
+3 - highlight-videos - vídeos de destaque
+4 - news-others - outras notícias, valor de moedas, horóscopo e números da loteria
+5 - news-end - notícias próximo ao rodapé
+
+news-top
+    1 foto com 2 slides de texto
+        margin com valor negativo para sobrepor ao box-shadow acima
+    2 fotos com título e descrição abaixo
+    linhade separação com box-shadow
+
+news-columns
+    duas colunas
+        primeira coluna:
+            5 imagens com título e descrição ao lado e tempo de publicão
+            2 imagens slides com título e descrição em barra inferior
+                criar uma base css para reutilização de slides
+        segunda coluna:
+            2 imagens verticais lado-a-lado com título e descrição interna
+
+highlight-videos
+    uma div superior
+        duas divs internas
+            primeira div com título
+            segunda div com box-shadow para separação
+    uma div inferior
+        4 divs com imagem, título, descrição, com botão play e tempo de vídeo em CSS puro
+news-others
+    2 divs principais
+        primeira com um slide show igual ao da news-columns utilizando a mesma base de estilo
+        segunda com 2 divs
+            primeira com horóscopo (simples demais para ser descrito)
+            segunda com duas divs internas lado a lado
+                primeira com informações da bolsa
+                segunda com números de sorteio com um trevo podendo ser unicode
+                    os números podem ser dentro de divs com border-radius 50% e com o número internamente
+news-end
+    duas colunas
+        primeira div com 3 divs internas
+            cada uma com uma imagem, título, descrição e data da publicação ao lado direito da imagem
+        segunda div com 4 divs internas
+            cada uma com uma imagem, título e descrição ao lado esquerdo da imagem
+
+
+RODAPÉ - FOOTER
+O RODAPÉ CONTÉM 3 DIVs
+Uso flexbox com space-between e margens para acertar o conteúdo
+copyright-area
+    Contém um C unicode e uma descrição
+circle-white
+    Mesmo design do  círculo do topo
+designer-area
+    Área de texto simples
+ 
